@@ -18,7 +18,6 @@
 <div class="highlight highlight-source-js">
 <pre>Почему this._i не увеличивается. Как исправить?
 
-this._i
 function Ticker() {
 this._i = 0
 };
