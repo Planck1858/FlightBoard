@@ -1,0 +1,92 @@
+[
+    {
+        "Id": "0",
+        "BoardNumber": "SU 1243",
+        "From": "Москва",
+        "To": "Казань",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Departure"
+    },
+    {
+        "Id": "1",
+        "BoardNumber": "TT 2033",
+        "From": "Москва",
+        "To": "Краснодар",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Departure"
+    },
+    {
+        "Id": "2",
+        "BoardNumber": "BF 4763",
+        "From": "Мурманск",
+        "To": "Москва",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Arrival"
+    },
+    {
+        "Id": "3",
+        "BoardNumber": "SU 1243",
+        "From": "Москва",
+        "To": "Армавир",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Delayd"
+    },
+    {
+        "Id": "4",
+        "BoardNumber": "SU 1243",
+        "From": "Воронеж",
+        "To": "Москва",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Arrival"
+    },
+    {
+        "Id": "5",
+        "BoardNumber": "SU 1243",
+        "From": "Париж",
+        "To": "Москва",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Arrival"
+    },
+    {
+        "Id": "6",
+        "BoardNumber": "SU 1243",
+        "From": "Москва",
+        "To": "Оренбург",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Departure"
+    },
+    {
+        "Id": "7",
+        "BoardNumber": "SU 1243",
+        "From": "Брюсель",
+        "To": "Москва",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Arrival"
+    },
+    {
+        "Id": "8",
+        "BoardNumber": "SU 1243",
+        "From": "Москва",
+        "To": "Казань",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Departure"
+    },
+    {
+        "Id": "9",
+        "BoardNumber": "SU 1243",
+        "From": "Лондон",
+        "To": "Москва",
+        "Departure": "12:30/11.10.18",
+        "Arrival": "14:15/11.10.18",
+        "Status": "Delayd"
+    }
+]
