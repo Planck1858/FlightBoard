@@ -12,7 +12,14 @@
 Плюсом будет, если данные для табло вы получите из публичных api. Если решите их не использовать,
 то положите данные в отдельный файл в репозитории.</p>
 
-<a href="">Посмотреть решешиение</a>
+<h3>Запуск проекта</h3>
+<pre>
+npm install nodejs
+npm install express
+npm node server
+</pre>
+
+Откройте http://127.0.0.1:8000/
 
 <h2>2.Ticket</h2>
 <div class="highlight highlight-source-js">
