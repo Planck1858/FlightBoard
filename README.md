@@ -25,7 +25,7 @@ npm node server
 
 <h2>2.Ticket</h2>
 <div class="highlight highlight-source-js">
-<pre class="highlight highlight-source-js">Почему this._i не увеличивается. Как исправить?
+<pre>Почему this._i не увеличивается. Как исправить?
 
 function Ticker() {
 this._i = 0
@@ -38,3 +38,20 @@ Ticker.prototype = {
 var ticker = new Ticker();
 setInterval(ticker.tick, 1000);</pre>
 </div>
+<h3>Ответ</h3>
+Свойство tick принадлежит прототипу функции Ticker. Прототип создан в рамках глобального объекта Window, а this указывает на это. Так как глобальный объект не имеет свойство _i, то в консоли мы получаем NaN, ибо инкремент прибавляет единицу к неопределенному объекту.
+Рабочий код выглядит так: 
+
+Рабочий вариант
+<pre>
+function Ticker() {
+    let _i = 0;
+    return {
+        tick: function() {
+            console.log(_i++);
+        }
+    }
+};
+let ticker = new Ticker();
+setInterval(ticker.tick, 1000);
+</pre>
