@@ -21,6 +21,8 @@ npm node server
 
 Откройте http://127.0.0.1:8000/
 
+При разработке использовал: HTML, CSS, JS, JQuery, Bootstrap, Nodejs
+
 <h2>2.Ticket</h2>
 <div class="highlight highlight-source-js">
 <pre>Почему this._i не увеличивается. Как исправить?
