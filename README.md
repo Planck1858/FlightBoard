@@ -25,7 +25,7 @@ npm node server
 
 <h2>2.Ticket</h2>
 <div class="highlight highlight-source-js">
-<pre>Почему this._i не увеличивается. Как исправить?
+<pre class="highlight highlight-source-js">Почему this._i не увеличивается. Как исправить?
 
 function Ticker() {
 this._i = 0
