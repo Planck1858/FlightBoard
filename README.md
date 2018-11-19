@@ -15,7 +15,7 @@
 <a href="">Посмотреть решешиение</a>
 
 <h2>2.Ticket</h2>
-<p>`Почему не увеличивается. Как исправить?
+<pre>Почему не увеличивается. Как исправить?
 § правка
 this._i
 function Ticker() {
@@ -27,4 +27,4 @@ Ticker.prototype = {
  }
 };
 var ticker = new Ticker();
-setInterval(ticker.tick, 1000);`</p>
+setInterval(ticker.tick, 1000);</pre>
