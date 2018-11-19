@@ -15,6 +15,7 @@
 <a href="">Посмотреть решешиение</a>
 
 <h2>2.Ticket</h2>
+<div class="highlight highlight-source-js">
 <pre>Почему this._i не увеличивается. Как исправить?
 
 this._i
@@ -28,3 +29,4 @@ Ticker.prototype = {
 };
 var ticker = new Ticker();
 setInterval(ticker.tick, 1000);</pre>
+</div>
